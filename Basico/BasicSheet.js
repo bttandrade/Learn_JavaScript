@@ -6,6 +6,7 @@
     linhas
 */
 
+
 // ADICIONAR JS A UMA PÁGINA HTML:
 // Método externo
 // <script scr="meuScript.js"></script>
@@ -122,6 +123,24 @@ do {
 // Break e Continue
     // break: força o encerramento do loop
     // continue: pula o loop atual baseado em alguma condição
+
+
+// CONVERSÃO DE VALORES:
+// Converter para string
+console.log(String(null)); // String() converte até null e undefined
+console.log(numero.toString()); // toString() não converte null ou undefined
+// Converter para int
+console.log(parseInt("10.5"));
+// Converter para float
+console.log(parseFloat("10.5"));
+// Converte para um número
+console.log(Number(true));
+
+
+// TEMPLATE LITERALS:
+// ` ` delimita a string
+// ${} adiciona o valor de uma variável
+console.log(`Dentro da string: ${numero}`);
 
 
 // TRATAMENTO DE ERROS:

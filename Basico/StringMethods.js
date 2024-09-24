@@ -1,10 +1,18 @@
-let string = "Testanto";
+let string = "Testandostring ";
+
+// .length, retorna o tamanho da string
+console.log(string.length);
+
+// endsWith(), testa se a string termina igual ao parâmetro e retorna um bool
+console.log(string.endsWith("ring"));
 
 // charAt(), retorna o char na posição definida
 console.log(string.charAt(0));
 
 // charCodeAt(), retorna o Unicode do char na posição definida
 console.log(string.charCodeAt(0));
+
+console.log(string.includes('string'));
 
 // concat(), junta duas strings
 console.log(string.concat('Concat'));
@@ -16,13 +24,13 @@ console.log(string.indexOf("t"));
 console.log(string.lastIndexOf("t"));
 
 // match(), compara o parâmetro como um padrão encontrado na string
-console.log(string.match("test"));
+console.log(string.match("Test"));
 
 // replace(), substitui o primeiro parâmetro pelo segundo dentro da string
 console.log(string.replace("nto", "do"));
 
 // search(), procura um texto o retorna sua posição
-console.log(string.search("ant"));
+console.log(string.search("est"));
 
 // slice(), mantém a string pela posição definida nos dois parâmetros e remove o resto
 console.log(string.slice(0, 4));
@@ -41,3 +49,6 @@ console.log(string.toUpperCase());
 
 // valueOf(), retorna o valor primitivo de uma string
 console.log(string.valueOf());
+
+// trim(), remove espaços brancos no começo e no final de uma string
+console.log(string.trim());
